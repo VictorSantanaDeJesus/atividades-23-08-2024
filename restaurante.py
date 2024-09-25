@@ -20,7 +20,7 @@ def exibir_cardapio():
 
 # Função para calcular o valor total com base na forma de pagamento
 def calcular_total(lista_pratos, forma_pagamento):
-    precos = {1: 30.00, 2: 25.00, 3: 20.00, 4: 15.00, 5: 10.00, 6: 50.00, 7: 35.00}
+    precos = {1: 5.00, 2: 10.00, 3: 15.00, 4: 20.00, 5: 25.00, 6: 30.00, 7: 35.00}
     soma_total = 0 
     for prato in lista_pratos:
         preco_prato = precos[prato]
